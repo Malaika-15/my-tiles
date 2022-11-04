@@ -1,0 +1,148 @@
+@charset "utf-8";
+/* CSS Document */
+
+.img-2
+{transition:transform 1s;
+  opacity:1;
+  } 
+.img-2:hover
+{
+  transform:scale(1.1);
+  opacity:0.5;
+  }
+  
+  .im-1
+{
+	transition:transform 1s;
+	opacity:1;
+	}
+	
+ .im-1:hover
+{
+	transform:scale(0.6);
+	opacity:0.5;
+	}
+
+.im-3
+{transition:transform 1s;
+	opacity:1;
+	}	
+
+.im-3:hover
+{
+	transform:scale(0.7);
+	opacity:1;
+	}
+ 
+ .tac-1
+{transition:transform 1s;
+  opacity:1;
+  } 
+.tac-1:hover
+{
+  transform:scale(1.1);
+  opacity:0.5;
+  }
+.tac-2
+{transition:transform 1s;
+  opacity:1;
+  } 
+.tac-2:hover
+{
+  transform:scale(1.1);
+  opacity:0.5;
+  }
+.tac-3
+{transition:transform 1s;
+  opacity:1;
+  } 
+.tac-3:hover
+{
+  transform:scale(1.1);
+  opacity:0.5;
+  }
+.tacc-1
+{
+	transition:transform 1s;
+	opacity:1;
+	}
+	
+ .tacc-1:hover
+{
+	transform:scale(0.6);
+	opacity:0.5;
+	}
+	.tacc-2
+{
+	transition:transform 1s;
+	opacity:1;
+	}
+	
+ .tacc-2:hover 
+{
+	transform:scale(0.6);
+	opacity:0.5;
+	}
+	.tacc-3
+{
+	transition:transform 1s;
+	opacity:1;
+	}
+	
+ .tacc-3:hover
+{
+	transform:scale(0.6);
+	opacity:0.5;
+	}
+
+.cool-1
+{transition:transform 1s;
+	opacity:1;
+	}	
+
+.cool-1:hover
+{
+	transform:scale(0.7);
+	opacity:1;
+	}
+
+.hea-1
+{
+   color: white; 
+  font-family: "arial";
+  font-size: 3em;
+  margin: 10px 0 0 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 100%;
+  animation: animtext 6s steps(80, end); 
+   transition: all cubic-bezier(0.1, 0.7, 1.0, 0.1);
+}
+@keyframes animtext { 
+  from {
+      width: 0;
+     transition: all 4s ease-in-out;
+  } 
+}
+.hea-2
+{
+   color: black; 
+  font-family: sans-serif;
+  font-size: 3em;
+  margin: 10px 0 0 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 100%;
+  animation: animtext 6s steps(80, end); 
+   transition: all cubic-bezier(0.1, 0.7, 1.0, 0.1);
+}
+@keyframes animtext { 
+  from {
+      width: 0;
+     transition: all 4s ease-in-out;
+  } 
+}
+.myborder{
+	border-style:groove;
+	border-color:#43AFAA; 
+	}
